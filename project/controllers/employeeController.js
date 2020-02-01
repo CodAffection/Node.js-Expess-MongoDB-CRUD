@@ -61,6 +61,9 @@ function updateRecord(req, res) {
 router.get('/list', (req, res) => {
     Employee.find((err, docs) => {
         if (!err) {
+            
+            docs=JSON.parse(JSON.stringify(docs))
+            
             res.render("employee/list", {
                 list: docs
             });
