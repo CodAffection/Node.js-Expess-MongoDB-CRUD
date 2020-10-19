@@ -11,11 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "@handlebars/allow-prototype-access": "^1.0.3",
-    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
-    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.3.4"
   },
   "devDependencies": {
