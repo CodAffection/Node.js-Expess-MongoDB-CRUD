@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,10 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
